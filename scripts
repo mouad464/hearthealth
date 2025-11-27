@@ -1,1 +1,31 @@
 phython scripts
+import wfdb
+import numpy as np
+from scipy.signal import find_peaks
+
+def load_ecg(record_path):
+    record = wfdb.rdrecord(record_path)
+    signal = record.p_signal[:, 0]
+    fs = record.fs
+    return signal, fs
+
+def detect_r_peaks(ecg_signal, fs):
+    distance = int(0.2 * fs)
+    height = np.mean(ecg_signal) + 0.3 * np.std(ecg_signal)
+    peaks, _ = find_peaks(ecg_signal, distance=distance, height=height)
+    return peaks
+
+def compute_rr_intervals(peaks, fs):
+    rr = np.diff(peaks) / fs
+    return rr, np.mean(rr), np.std(rr)
+
+def compute_heart_rate(num_beats, duration_sec):
+    return (num_beats / duration_sec) * 60
+
+def classify_hr(hr):
+    if hr < 60: 
+        return "Bradycardia"
+    elif hr > 100:
+        return "Tachycardia"
+    else:
+        return "Normal"

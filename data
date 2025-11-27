@@ -1,1 +1,15 @@
-add ecg dataset
+# Data Instructions
+
+The MIT-BIH Arrhythmia Database is not included in this repository due to file size.
+
+Download the dataset from PhysioNet:
+
+https://physionet.org/content/mitdb/1.0.0/
+
+After downloading:
+1. Extract the ZIP file.
+2. Upload the folder to your Google Colab session or local machine.
+3. Update the dataset path in ecg_analysis.ipynb accordingly.
+
+The project uses `.hea`, `.dat`, and `.atr` files together for ECG signal processing.
+

